@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+}
+h2 {
+  color: #333333;
+}
+.main {
+  padding: 20px;
+}
+.about-me {
+  display: flex;
+}
+.bio {
+  padding: 20px;
+}
+.my-photo {
+  max-height: 10em;
+  border-radius: 10px;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333333;
+}
+.navbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.navbar a.active {
+  background-color: #4caf50;
+  color: white;
+}
