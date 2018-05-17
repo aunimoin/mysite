@@ -48,8 +48,11 @@ h2 {
   margin: 0 auto;
   padding: 20px;
 }
+.resume a {
+  text-decoration: none;
+}
 .resume-pic {
-  max-height: 20em;
+  max-height: 15em;
   border-radius: 5px;
 }
 .resume-heading {
@@ -71,7 +74,6 @@ h2 {
 /*OTHER PROJECTS*/
 .other-projects {
   display: flex;
-  justify-content: space-between;
   padding: 20px;
 }
 .other-projects-heading {
