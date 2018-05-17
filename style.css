@@ -22,7 +22,7 @@
 body {
   margin: 0;
   font-family: Helvetica, sans-serif;
-  background-color: #ebe9e9;
+  background-color: #e8ebee;
 }
 h2 {
   color: #333333;
@@ -40,7 +40,7 @@ h2 {
   border-radius: 5px;
 }
 .bio {
-  padding: 20px;
+  padding-left: 20px;
 }
 /*RESUME SECTION*/
 .resume {
