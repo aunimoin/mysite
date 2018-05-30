@@ -15,7 +15,7 @@
         <a href="#contact">Contact Me</a>
     </header>
 
-    <div class="main">
+    <div class="site-container">
 
       <div class="about-me">
         <img class="my-photo" src="./assets/my-photo.jpg" alt="my photo">
@@ -26,8 +26,8 @@
             extensive client management expertise who can prioritize tasks and
             deliver projects under tight deadlines. Specialist in leveraging
             global team structures and lover of efficient code and elegant web design.</p>
-        </div>
-      </div>
+        </div> <!-- bio div -->
+      </div> <!-- about-me div -->
 
       <div class="resume">
         <a href="./assets/Auni-Moin-Resume.pdf" target="_blank">
@@ -37,23 +37,24 @@
           <a href="./assets/Auni-Moin-Resume.pdf" target="_blank">
             <h2>Here is my resume!</h2>
           </a>
-        </div>
-      </div>
+        </div> <!-- resume-heading div -->
+      </div> <!-- resume div -->
 
-      <div class="projects">
+      <div class="all-projects">
 
         <div class="food-truck">
           <img class="food-truck-pic" src="./assets/final-project-pic.png">
           <div class="food-truck-heading">
             <h2>My latest app - Food Trucks Only!</h2>
           </div>
-        </div>
+        </div> <!-- food-truck div -->
 
         <div class="other-projects">
           <!-- <div class="other-project-pics"> -->
             <a href="http://auni-puzzle-game.bitballoon.com" target="_blank">
               <img class="puzzle-pic" src="./assets/puzzle-pic.png">
             </a>
+
             <a href="http://auni-pokeapp.bitballoon.com" target="_blank">
               <img class="pokemon-pic" src="./assets/pokemon-pic.png">
             </a>
@@ -61,10 +62,18 @@
           <div class="other-projects-heading">
             <h2>I also made a photo puzzle game and a Pokemon app.</h2>
           </div>
-        </div>
+        </div> <!-- other-projects div -->
+      </div> <!-- all-projects div -->
 
-      </div>
-    </div>
+      <div class="contact-form">
+        <form action="https://formspree.io/auni.moin@gmail.com" method="POST">
+          <input type="text" name="name">
+          <input type="email" name="_replyto">
+          <input type="submit" value="Send">
+        </form>
+      </div>         
+
+    </div> <!-- site-container div -->
 
     <footer class="navbar">
         <!-- <a class="active" href="#about">About Me</a> -->

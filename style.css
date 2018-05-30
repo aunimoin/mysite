@@ -27,7 +27,7 @@ body {
 h2 {
   color: #333333;
 }
-.main {
+.site-container {
   padding: 20px;
 }
 /*ABOUT ME SECTION*/
@@ -89,3 +89,4 @@ h2 {
   margin: 5px;
   border-radius: 5px;
 }
+/* CONTACT FORM */
