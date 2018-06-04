@@ -64,6 +64,9 @@ h2 {
   display: flex;
   padding: 20px;
 }
+.food-truck a {
+  text-decoration: none;
+}
 .food-truck-heading {
   padding: 20px;
 }
