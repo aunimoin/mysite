@@ -42,6 +42,7 @@ h2 {
 .bio {
   padding-left: 20px;
 }
+
 /*RESUME SECTION*/
 .resume {
   display: flex;
@@ -59,6 +60,7 @@ h2 {
   padding: 20px;
   border-radius: 5px;
 }
+
 /*FODD TRUCKS ONLY!*/
 .food-truck {
   display: flex;
